@@ -53,7 +53,7 @@ int main(int argc, char *argv[])
 	createWAVFile("answer.wav", noOfSamples, totalNotes, wave, sampleRate);
 	
 	free(wave);
-	free(numbers);
+	free(notes);
 	
 	return 0;
 }
